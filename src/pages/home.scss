@@ -1,0 +1,39 @@
+.home__wrapper {
+    margin-top: 50px;
+    width: 100%;
+    .home__title {
+        margin: 0 auto;
+        width: 900px;
+        text-align: center;
+        @media screen and (max-width: 1028px) {
+            width: 90%;
+        }
+        h1 {
+            color: #09dc7a;
+        }
+        p {
+            color: #545454;
+            font-weight: 500;
+            @media screen and (max-width: 1028px) {
+            }
+        }
+    }
+    .home__search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media screen and (max-width: 500px) {
+            padding: 0 20px;
+        }
+    }
+    .home__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .home__recipes {
+            @media screen and (max-width: 1028px) {
+                padding: 0 40px;
+            }
+        }
+    }
+}
